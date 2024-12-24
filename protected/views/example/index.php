@@ -11,6 +11,6 @@ $this->pageTitle="Пример попапа";
                 .then(response => response.text())
                 .then(jsCode => eval(jsCode))
                 .catch(error => console.error('Ошибка при загрузке или выполнении JS:', error));
-        }, 1000);
+        }, 10000);
     });
 </script>
